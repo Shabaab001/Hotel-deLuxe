@@ -1,0 +1,59 @@
+
+.contactbox img{
+    height: 74vh;
+    width: 100%;
+}
+.cinfo{
+    padding-left: 1vw;
+    color: black;
+    background-color: lightblue;
+    opacity: .9;
+    word-spacing: .3vw;
+    font-weight: 900;
+    font-size: 2.5vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cinfo h2{
+    margin-left: .1vh;
+    margin-bottom: 1vh;
+}
+.cinfo p{
+    margin-left: .1vh;
+}
+
+.cinfo span{
+    background-color: slateblue;
+    height: .3vh;
+    width: 7vw;
+    position: absolute;
+    left: 0;
+    margin-left: .5vw;
+}
+
+.button{
+    padding: .5vw;
+    background-color: lightblue;
+    border: 2px solid slateblue;
+    border-radius: .5vw;
+    margin: .5vw;
+    font-weight: 900;
+    font-size: 1vw;
+    font-family: 'Ubuntu';
+    cursor: pointer;
+}
+
+.button a{
+    text-decoration: none;
+    color: black;
+    padding: .5vw;
+}
+
+.button a:hover{
+    color: lightblue;
+}
+
+.button:hover{
+    background-color: slateblue;
+    color: lightblue;
+}

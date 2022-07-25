@@ -1,0 +1,10 @@
+.bg{
+    background-color: lightblue;
+    height: 60vh;
+    width: 80vw;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+.box{
+    background-image: url(../Img/ministryfood.png);
+}

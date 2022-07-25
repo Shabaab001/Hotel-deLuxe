@@ -1,0 +1,30 @@
+@media screen and (max-width: 650px){
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .navbar .navlist li a{
+        display: flex;
+        flex-direction: column;
+        margin: 1vw;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 7.8vh;
+    }
+    .dropdown-content a{
+        width: auto;
+    }
+    .v-class{
+        opacity: 0;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .burger{
+        display: none;
+    }
+}
